@@ -14,7 +14,11 @@
   "dependencies": {
     "@dhw/modal-picker": "0.0.1",
     "react": "16.13.1",
-    "react-native": "0.63.2"
+    "react-native": "0.63.2",
+    "react-native-reanimated": "^1.13.0",
+    "react-native-redash": "^14.2.3",
+    "@react-native-community/masked-view": "^0.1.10",
+    "react-native-gesture-handler": "^1.8.0"
   },
   "devDependencies": {
     "@babel/core": "^7.8.4",
@@ -54,12 +58,11 @@
   },
   "workspaces": {
     "nohoist": [
-      "react-native",
-      "react-native/**",
-      "react",
-      "react/**",
       "@storybook",
-      "@storybook/**"
+      "@storybook/**",
+      "react-native-reanimated",
+      "@react-native-community/masked-view",
+      "react-native-gesture-handler"
     ]
   }
 }

@@ -10,12 +10,20 @@
   "author": "Daniel Williams",
   "license": "MIT",
   "dependencies": {
-    "react": "^16.13.1",
-    "react-native": "^0.63.2"
+    "react": "16.13.1",
+    "react-native": "^0.63.2",
+    "react-native-reanimated": "^1.13.0",
+    "react-native-gesture-handler": "^1.8.0",
+    "react-native-redash": "^14.2.4",
+    "@react-native-community/masked-view": "^0.1.10"
   },
   "devDependencies": {
     "typescript": "^4.0.3",
-    "@types/react-native": "^0.63.19"
+    "@types/react-native": "^0.63.19",
+    "@react-native-community/eslint-config": "^1.1.0",
+    "eslint": "^7.9.0",
+    "@typescript-eslint/eslint-plugin": "^2.27.0",
+    "@typescript-eslint/parser": "^2.27.0"
   },
   "keywords": [
     "react-native",
